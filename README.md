@@ -4,4 +4,5 @@
 
 ---
 
-Per aggiornamenti aprire PR su [Repo GitHub](https://github.com/leonardoviada/notes_info)
+Gestita con docs in markdown.
+Contribuisci aprendo una PR sulla [repo GitHub](https://github.com/leonardoviada/notes_info/pulls)
