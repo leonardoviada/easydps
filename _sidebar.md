@@ -1,5 +1,6 @@
 - [Home](/)
 - Database
-  - [Lezione 1](db/lezione1.md)
-    - [Tiplogie di DB](db/lezione1.md?id=tiplogie-di-database)
-    - [SQL](db/lezione1.md?id=sql)
+  - [1 - Tipologie di DB](db/lezione1.md)
+    - [Intro SQL](db/lezione1.md?id=sql)
+- Fondamenti Web | Client
+  - [1 - Ipertesto e HTML](intro_web/lezione1.md)

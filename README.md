@@ -1,4 +1,4 @@
-# Appunti, si spera ordinati | Informatica
+# Appunti di _Informatica_
 
 #### 5AINF @ [ITIS "Delpozzo" Cuneo](https://itiscuneo.gov.it)
 
