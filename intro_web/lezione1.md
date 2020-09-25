@@ -1,6 +1,13 @@
 # Lezione 1
 
-## HTML e CSS
+## Programmazione Web
+
+La programmazione web è dipendente dagli obiettivi dell'applicazione sviluppata ed è strettamente legata alla scelta tra Web statico e Web dinamico. <br>
+Il primo approccio è quello originario del Web e consiste nella stesura di documenti formattati direttamente in codice [HTML](?id=html) e caratterizzati da una bassa interazione con l'utente, vedi [Ipertesto](https://www.w3.org/WhatIs.html). <br>
+Il secondo, rappresenta invece l'evoluzione delle applicazioni Web con l'inserimento di processi di automazione ed una maggiore interattività con l'utente.
+Il web dinamico fa sovente uso di database e di linguaggi di scripting elaborati dal server oppure dal client quali ad esempio PHP, ASP, .NET, JavaScript, Python: questi codici una volta in esevuzione restituiscono codice HTML al [web browser](https://www.mozilla.org/en-US/firefox/browsers/what-is-a-browser/) dell'utente.
+
+## HTML
 
 ### I Tag
 
@@ -51,3 +58,55 @@ Vengono inseriti all'interno di un documento con estensione `.html` e richiedono
   </body>
 </html>
 ```
+
+?> In qualsiasi editor che integri [Emmet](https://emmet.io/), è possibile attivare l'inserimento automatico del boilerplate digitando `!` e utilizzando il primo suggerimento.
+
+### Hello World
+
+La nostra prima pagina web. Include alcuni dei tag più semplici offerti dal linguaggio.
+
+```html
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La mia Pagina HTML</title>
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    <hr />
+    <p>
+      Sed <strong>porttitor</strong> lectus nibh. Sed porttitor lectus nibh.
+      Vivamus suscipit tortor eget felis porttitor volutpat. Donec rutrum congue
+      leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh
+      pulvinar a. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+      Curabitur non nulla sit amet nisl <em>tempus</em> convallis quis ac
+      lectus. Donec rutrum congue leo eget malesuada. Cras ultricies ligula sed
+      magna dictum porta. Vestibulum ac diam sit amet quam vehicula elementum
+      sed sit amet dui.
+
+      <pre> <!-- Mantiene invariata la formattazione del contenuto, utilizzato solitamente per includere del codice nella pagina -->
+        public: B* foo() = {
+          return new A;
+        }
+      </pre>
+    </p>
+  </body>
+</html>
+```
+
+#### Risultato 👇
+
+![Hello World](../public/helloWorld_1.png)
+
+---
+
+### Reference HTML
+
+Riportare i tag e la loro descrizione sarebbe superfluo e finirebbe per essere riduttivo e limitante. <br>
+Il Mozzilla Developer Network offre una completa raccolta di tutti gli elementi HTML con nozioni teoriche, dettagli, approfondimenti e riferimenti pratici.
+[Link Qui 🔗](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference) <br>
+MDN può aiutarci anche con diverse altre tecnologie web lato client.
+
+---

@@ -97,7 +97,8 @@ if (rc == 0) printf("tutto bene!"); else return -1;
 ```
 
 !> Per evitare problemi durante la migrazione dei dati (da un DBMS ad un altro) conviene evitare di utilizzare tipi di dato non primitivi. <br>
-Questo comporta la scrittura di frammenti di codice per il parsing delle colonne del DB che contengono dati non primitivi.
+Questo comporta la scrittura di frammenti di codice per il parsing delle colonne del DB che contengono dati non primitivi. <br>
+**E.G.** Per salvare un Array possiamo utilizzare una stringa con un apposito protocollo definito per il parsing - `"item1##item2##item3"`, avremo bisogno quindi una funzione che ci consenta di riportare nel formato desiderato i dati - `mioArray = fieldArray.split('##')`
 
 ---
 
