@@ -9,7 +9,7 @@ Il web dinamico fa sovente uso di database e di linguaggi di scripting elaborati
 
 ## HTML
 
-### I Tag
+### Sintassi: I Tag
 
 Le entità che definiscono la struttura della pagina, consentendo ad altre tecnologie lato client (CSS, JavaScript) di interagirvi contribuendo alla realizzazione dell'interfaccia presentata all'utente.
 Tutte le informazioni necessarie a queste interazioni sono contenute all'interno di **attributi**, composti da chiave e valore. <br>
@@ -102,11 +102,17 @@ La nostra prima pagina web. Include alcuni dei tag più semplici offerti dal lin
 
 ---
 
-### Reference HTML
+### Il DOM
 
-Riportare i tag e la loro descrizione sarebbe superfluo e finirebbe per essere riduttivo e limitante. <br>
-Il Mozzilla Developer Network offre una completa raccolta di tutti gli elementi HTML con nozioni teoriche, dettagli, approfondimenti e riferimenti pratici.
-[Link Qui 🔗](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference) <br>
-MDN può aiutarci anche con diverse altre tecnologie web lato client.
+Il DOM - Document Object Model - connette una pagina web a del codice terzo, rappresentando la struttura di un documento (E.G. HTML) in memoria. <br>
+E' un "🌳 albero logico" composto da nodi, contenenti oggetti. I metodi del DOM ci consentono l'accesso programmatico a questo albero, e attraverso questi ultimi possiamo modificare stile, struttura e contenuto del documento. [Approfondisci Qui](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
 
 ---
+
+### Reference HTML
+
+**[Link alla reference HTML 🔗](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference)**
+
+Riportare tutti i tag e la loro descrizione sarebbe superfluo e finirebbe per essere riduttivo e limitante. <br>
+Il Mozzilla Developer Network offre una completa raccolta di tutti gli elementi HTML con nozioni teoriche, dettagli, approfondimenti e riferimenti pratici.<br>
+MDN può aiutarci anche con diverse altre tecnologie web lato client.

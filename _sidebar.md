@@ -1,9 +1,11 @@
 - [Home](/)
 - Database
   - [1 - Tipologie di DB](db/lezione1.md)
-    - [Intro SQL](db/lezione1.md?id=sql)
+    - [Cenni SQL](db/lezione1.md?id=sql)
   - [2 - Embedded o non Embedded?](db/lezione2.md)
 - Fondamenti Web | Client
   - [1 - Introduzione e HTML](intro_web/lezione1.md)
+    - [Tag](intro_web/lezione1?id=html)
+    - [Il DOM](intro_web/lezione1?id=il-dom)
   - [2 - Styling CSS](intro_web/lezione2.md)
   - [3 - Layout](intro_web/lezione3.md)
