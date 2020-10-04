@@ -8,3 +8,7 @@ Gestita con docs in markdown.
 Contribuisci aprendo una PR sulla [repo GitHub](https://github.com/leonardoviada/notes_info/pulls)
 
 **↙️ Per l'elenco di tutte gli argomenti, ricordati la sidebar là in basso ↙️**
+
+---
+
+Ultimo aggiornamento [4/10/2020]()
