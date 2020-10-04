@@ -12,3 +12,4 @@ Contribuisci aprendo una PR sulla [repo GitHub](https://github.com/leonardoviada
 ---
 
 Ultimo aggiornamento [4/10/2020]()
+**Ricaricare più volte la pagina per rimuovere dalla cache le vecchie versioni**

@@ -14,7 +14,7 @@
     - [Tag](intro_web/lezione1?id=html)
     - [Il DOM](intro_web/lezione1?id=il-dom)
   - [2 - Styling CSS](intro_web/lezione2.md?id=lezione-2)
-  - [2.1 - Selettori](intro_web/lezione2_1.md?id=lezione-2.1)
+  - [2.1 - Selettori](intro_web/lezione2_1?id=lezione-21)
   - [3 - Layout](intro_web/lezione3.md?id=lezione-3)
 
 ---
